@@ -16,7 +16,7 @@ mongoose
     console.log(err.message);
   });
 
-const whitelist = ["http://localhost:3000", "http://localhost:3001"];
+const whitelist = ["https://stereogon.github.io/yoga-class-enrollment-form/"];
 
 const corsOptions = {
   origin: function (origin, callback) {
