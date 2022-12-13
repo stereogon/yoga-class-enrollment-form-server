@@ -16,7 +16,10 @@ mongoose
     console.log(err.message);
   });
 
-const whitelist = ["https://stereogon.github.io/yoga-class-enrollment-form/"];
+const whitelist = [
+  "https://stereogon.github.io/",
+  "https://stereogon.github.io",
+];
 
 const corsOptions = {
   origin: function (origin, callback) {
