@@ -47,7 +47,7 @@ Payload: \
  
 ## GET /users/get-enrolls/:mobile
 Request Type: GET\
-Request Paramenter: Mobile No.
+Request Paramenter: Mobile No.\
 Response: \
 {\
   &nbsp;&nbsp;data: [\
@@ -85,7 +85,7 @@ Response: \
 if the mobile number in the request parameters does not match with any registered mobile number, an error is thrown with the required info.
 ## POST /users/pay-enroll/:enrollmentId
 Request Type: POST\
-Resquest Parameter: EnrollmentId
+Resquest Parameter: EnrollmentId\
 Payload: \
 {\
 &nbsp;&nbsp;cardHolder,\
